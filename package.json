@@ -1,7 +1,7 @@
 {
   "name": "sharil-plugin",
   "version": "1.0.0",
-  "description": "SHARIL — Session History And Retained Intelligence Layer. Cross-session memory for Claude Code. Auto-captures every turn (zero token cost), curates with ALFRED (local model or Haiku), and gives Claude a warm start every session. Built because we needed it.",
+  "description": "SHARIL — Session History And Retained Intelligence Layer. Persistent memory across every chat, for Claude Code. Auto-captures every turn (zero token cost), curates with ALFRED (local model or Haiku), and gives Claude a warm start every session. Built because we needed it.",
   "keywords": [
     "claude",
     "claude-code",
@@ -15,6 +15,10 @@
   ],
   "license": "MIT",
   "author": "Mohd Sharil",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ezrasabita/sharil-plugin.git"
+  },
   "bin": {
     "sharil": "bin/sharil.js"
   },

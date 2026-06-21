@@ -1,6 +1,6 @@
 # 🗄️ SHARIL — Heritage Edition
 
-### Session History And Retained Intelligence Layer — cross-session memory for Claude Code
+### Session History And Retained Intelligence Layer — persistent memory across every chat, for Claude Code
 
 > *Built at 3am by a man who was tired of explaining himself to his own AI.*
 
@@ -50,10 +50,23 @@ Your AI tokens are spent only on **thinking** — never on **remembering**.
 
 ---
 
-## Install
+## Quick Start (5 minutes)
 
 ```bash
-npm install -g sharil-plugin     # (or: npx sharil-plugin init)
+npm install -g github:ezrasabita/sharil-plugin
+sharil init
+```
+
+Restart Claude Code. Done — it now has memory across sessions.
+
+![SHARIL Installation Demo](./sharil-demo-v2.gif)
+
+---
+
+## Full Install
+
+```bash
+npm install -g github:ezrasabita/sharil-plugin
 cd /path/to/your/project
 sharil init                      # wires hooks into .claude/settings.json
 sharil doctor                    # check curator availability
