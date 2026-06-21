@@ -1,0 +1,51 @@
+{
+  "name": "sharil-plugin",
+  "version": "1.0.0",
+  "description": "SHARIL — Session History And Retained Intelligence Layer. Cross-session memory for Claude Code. Auto-captures every turn (zero token cost), curates with ALFRED (local model or Haiku), and gives Claude a warm start every session. Built because we needed it.",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "memory",
+    "cross-session",
+    "hooks",
+    "ai",
+    "context",
+    "al-farid",
+    "khazanah"
+  ],
+  "license": "MIT",
+  "author": "Mohd Sharil",
+  "bin": {
+    "sharil": "bin/sharil.js"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test/run.js",
+    "lint": "eslint .",
+    "sec:secrets": "gitleaks detect --no-banner --no-git",
+    "sec:deps": "npm audit --audit-level=moderate",
+    "sec:sast": "semgrep --config=auto --error --exclude-rule=javascript.lang.security.audit.path-traversal.path-join-resolve-traversal.path-join-resolve-traversal .",
+    "harden-check": "node scripts/harden-check.js",
+    "ci:sec": "npm run test && npm run harden-check && npm run sec:deps"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "hooks/",
+    "templates/",
+    "README.md",
+    "SETUP.md",
+    "SECURITY.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-plugin-security": "^3.0.0",
+    "eslint-plugin-no-unsanitized": "^4.1.0",
+    "fast-check": "^3.0.0"
+  }
+}
