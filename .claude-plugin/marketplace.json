@@ -1,0 +1,14 @@
+{
+  "name": "sharil",
+  "owner": {
+    "name": "Mohd Sharil",
+    "url": "https://github.com/ezrasabita"
+  },
+  "plugins": [
+    {
+      "name": "sharil",
+      "source": "./",
+      "description": "Persistent memory across every Claude Code session. Zero token cost capture, AL-FARID curation, warm start every session. Zero dependencies."
+    }
+  ]
+}
