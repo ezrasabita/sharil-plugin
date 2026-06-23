@@ -1,6 +1,6 @@
 {
   "name": "sharil",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SHARIL — Session History And Retained Intelligence Layer. Persistent memory across every Claude Code session. Auto-captures every turn (zero token cost), curates with AL-FARID (local model or Haiku), and gives Claude a warm start every session. Zero dependencies.",
   "author": {
     "name": "Mohd Sharil"
