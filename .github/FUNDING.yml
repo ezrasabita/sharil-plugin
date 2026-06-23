@@ -1,6 +1,2 @@
 # SHARIL — optional support. Free forever; donations are never required.
-# Fill in whichever account(s) you set up (delete the rest).
-github: [] # e.g. [mohdsharil]  → enables GitHub's "Sponsor" button
-ko_fi: # e.g. sharil          → ko-fi.com/sharil  ($1 one-tap, worldwide)
-buy_me_a_coffee: # e.g. sharil
-custom: [] # e.g. ["https://paypal.me/yourname"]
+ko_fi: ezrasabita
