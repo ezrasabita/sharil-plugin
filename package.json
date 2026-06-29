@@ -1,6 +1,6 @@
 {
   "name": "sharil-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SHARIL — Session History And Retained Intelligence Layer. Persistent memory across every chat, for Claude Code. Auto-captures every turn (zero token cost), curates with ALFRED (local model or Haiku), and gives Claude a warm start every session. Built because we needed it.",
   "keywords": [
     "claude",
